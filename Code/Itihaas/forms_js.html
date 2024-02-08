@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        function add()
+        {
+            var a=parseInt(document.getElementById("n1").value);
+            var b=parseInt(document.getElementById("n2").value);
+            var sum=a+b;
+            document.getElementById("r1").innerHTML=sum;
+
+        }
+
+        function sub()
+        {
+            var a=parseInt(document.getElementById("n1").value);
+            var b=parseInt(document.getElementById("n2").value);
+            var sub=a-b;
+            document.getElementById("r1").innerHTML=sub;
+
+        }
+
+        function mul()
+        {
+            var a=parseInt(document.getElementById("n1").value);
+            var b=parseInt(document.getElementById("n2").value);
+            var mul=a*b;
+            document.getElementById("r1").innerHTML=mul;
+
+        }
+
+        function div()
+        {
+            var a=parseInt(document.getElementById("n1").value);
+            var b=parseInt(document.getElementById("n2").value);
+            var div=a/b;
+            document.getElementById("r1").innerHTML=div;
+
+        }
+    </script>
+
+    <form>
+        Enter 1st Number: <input type="text" id="n1" placeholder="Enter the 1st Number"> <br> <br>
+        Enter 2nd Number: <input type="text" id="n2" placeholder="Enter the 2nd Number"> <br> <br>
+
+        <button type="button" onclick="add()"> Addition </button>
+        <button type="button" onclick="sub()"> Substraction </button>
+        <button type="button" onclick="mul()"> Multiplication </button>
+        <button type="button" onclick="div()"> Division</button>
+        <br> <br>
+        <p id="r1"> </p>
+    </form>
+
+</body>
+</html>

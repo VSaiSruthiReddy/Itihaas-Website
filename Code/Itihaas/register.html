@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .table{
+        background-color:rgb(197, 211, 209);
+        color: black;
+        border: "1";
+        margin-left: 200px;
+        margin-right: 200px;
+        border-style: double;
+        text-align: center;
+        font-size: 18px;
+        
+    }
+
+</style>
+<body>
+
+    <table border="1" height="500px" width="500px">
+        
+        <form>
+            
+    <tr class="table" style="background-color: white;">
+       <td colspan="2"> <input type="button" value="Sign Up" style="background-color: darkseagreen;"> &nbsp; &nbsp; &nbsp;
+       <input type="button" value="Sign In"> </td> 
+    </tr>
+   
+        <tr class="table">
+            <td> Name:</td>
+            <td><input type="text" placeholder="Enter your full name"></td>
+        </tr>
+
+        <tr class="table">
+            <td> Gender: (optional)</td>
+            <td><input type="radio" name="Gender" value="male"> Male
+            <input type="radio" name="Gender" value="female"> Female
+            <input type="radio" name="Gender" value="others"> Others <br><br> </td>
+        </tr>
+
+        <tr class="table">
+            <td> Date Of Birth:</td>
+            <td> <input type="date"> </td>
+        </tr>
+
+        <tr class="table">
+            <td> You are:</td>
+            <td> <input type="checkbox" value="Student"> Student &nbsp; &nbsp;
+            <input type="checkbox" value="Teacher"> Teacher &nbsp; &nbsp;
+            <input type="checkbox" value="Parent"> Parent </td>
+        </tr>
+
+        <tr class="table">
+           <td> E-mail ID:</td> 
+           <td> <input type="text" placeholder="eg:xyz@gmail.com"> </td>
+        </tr>
+
+        <tr class="table">
+            <td>Enter password:</td>
+            <td><input type="password" placeholder="Enter password"></td>
+         </tr>
+      
+
+        
+        <tr class="table">
+            <td colspan="2" style="text-align:right;">
+            <input type="submit" value="Submit" style="color:white; background-color: red;"> </td>
+        </tr>
+        
+    </form>
+    
+    </table>
+
+</body>
+</html>

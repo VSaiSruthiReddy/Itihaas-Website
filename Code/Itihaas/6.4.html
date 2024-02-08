@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 6.4 </title>
+
+        <style>
+            .navbar {
+                display: flex;
+                justify-content: right;
+                background-color: plum;
+                padding: 10px;
+                justify-content: space-between;
+            }
+    
+            .nav-item {
+                margin: 0 10px;
+                text-decoration: none;
+                color: gray;
+            }
+    
+            .background {
+                background-image: url(photo.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 240px;
+                width: 100%;
+            }
+    
+            .content {
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 20px;
+            }
+    
+            .flex-container {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+            }
+    
+            
+    
+            .logo img {
+                height: 40px;
+                width: 50px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="html.png">
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">About</a>
+                <a href="#" class="nav-item">Services</a>
+                <a href="#" class="nav-item">Contact</a>
+            </div>
+    
+        </nav>
+    
+        <div class="background">
+        </div>
+        <div class="content">
+            <div class="flex-container">
+                <div class="flex-item"><img  src="p1.png" width="280px" height="340px"></div>
+                <div class="flex-item"><img src="p2.png" width="280px" height="340px"></div>
+                <div class="flex-item"><img src="p3.png" width="280px" height="340px"></div>
+            </div>
+        </div>
+    
+    </body>
+    
+    </html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+    <style>
+     /* question 1 -- CSS for class "red" */
+        .red {
+            background-color: red;
+            color: white;
+        }
+
+        /*question  2--  CSS for id "head" */
+        #head {
+            background-color: rgb(128, 0, 100);
+            color:antiquewhite;
+        }
+
+        /* question 3 -- CSS for class "one" */
+        .one {
+            font-size: 24px;
+            text-decoration: wavy;
+        }
+
+        /*question 4 --  Multiple CSS classes */
+        .class1 {
+            font-weight: bold;
+        }
+
+        .class2 {
+            text-align:center;
+        }
+        .class3 {
+            color: aquamarine;
+            height: 10px;
+        }
+
+        /* question 5 -- Group selector */
+        h1, h2, h3 {
+            font-family: georgia;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        <h1>Website with Class Red Div</h1>
+        <p>This div has a background color of red and text color of white.</p>
+    </div>
+
+    <h2 id="head">Background Colours for Element with ID "head"</h2>
+
+    <div class="one">Class "one" applied to multiple elements</div>
+    <div class="one">This is another element with class "one"</div>
+
+    <p class="class1 class2 class3">Multiple CSS classes applied to the same element</p>
+
+    <h3>Group Selector Example</h3>
+    <p>This paragraph uses the Georgia Font Family.</p>
+    <h3>Another heading</h3>
+    <p>This paragraph also uses the Georgia Font Family.</p>
+</body>
+</html>
